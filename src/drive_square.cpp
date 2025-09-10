@@ -10,6 +10,7 @@ int main(int argc, const char *argv[])
     // Initialize the robot.
     mbot_bridge::MBot robot;
 
+    
     /**
      * TODO: (P1.1) Write code to make the robot drive in a square. Then,
      * modify your code so that the robot drives in a square 3 times.
@@ -25,7 +26,20 @@ int main(int argc, const char *argv[])
      *      sleepFor(secs);
      *
      * to sleep for "secs" seconds (replace with desired number of seconds).
+     * 
+     * From John's understanding, vx is moving forward, vy is moving sideways, and wz is turning the robot (negative = clockwise; positive = counter-clockwise)
      */
+
+    // Robot turns in square
+    for(int i = 0; i < 4; i++){
+        // Robot moves forward, the stops
+        robot.drive(0.5,0.0,0.0);
+        sleepFor(3.0);
+
+        // Robot turns then stops
+        robot.drive(0.,0.0,1.57);
+        sleepFor(3.0);
+    }
 
     // Stop the robot.
     std::cout << "Stopping the robot!!" << std::endl;

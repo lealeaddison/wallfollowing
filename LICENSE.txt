@@ -4,6 +4,8 @@ This unvetted license below is called the "Michigan Honor License" as the
 
 Copyright <YEAR> <COPYRIGHT HOLDER>
 
+Contributors: Le'ale Addison & John Tucker VI
+
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
 
