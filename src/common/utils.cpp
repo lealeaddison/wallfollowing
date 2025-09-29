@@ -3,6 +3,11 @@
 std::vector<float> crossProduct(const std::vector<float>& v1, const std::vector<float>& v2)
 {
     std::vector<float> res;
+
+    res[0] = ;
+    res[1] = ;
+    res[2] = ;
+    
     /**
      * TODO: (P1.2) Take the cross product between v1 and v2 and store the
      * result in res. v1, v2, and res should be vectors with 3 elements, which
