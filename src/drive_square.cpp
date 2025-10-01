@@ -31,12 +31,12 @@ int main(int argc, const char *argv[])
      */
 
     // Robot turns in square
-    const double forward_v = 0.25;
+    const double forward_v = 0.5;
     const double forward_t = 2.0;
-    const double turn_w = 1.57;
+    const double turn_w = 2.40;
     const double turn_t = 1.0;
 
-    for(int i = 0; i < 3; i++){
+    for(int i = 0; i < 4; i++){
         // Robot moves forward, the stops
         robot.drive(forward_v,0.0,0.0);
         sleepFor(forward_t);
