@@ -39,7 +39,7 @@ int findMinDist(const std::vector<float>& ranges)
         float r = ranges[i];
         if (r > 0.0f && r < min_val) {
             min_val = r; // Remember the new minimum distance
-            min_inx = i; ?? Remember its index
+            min_idx = i; ?? Remember its index
         }
     }
 
